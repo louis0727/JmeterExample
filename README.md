@@ -7,7 +7,8 @@ need ApacheJMeter.jar to use jmeter
 
 change HTTPSampler.port/HTTPSampler.domain/HTTPSampler.path/HTTPSampler.method
 
-<stringProp name="HTTPSampler.domain">localhost</stringProp>
+
+"<stringProp name="HTTPSampler.domain">localhost</stringProp>
 <stringProp name="HTTPSampler.port">8888</stringProp>
 <stringProp name="HTTPSampler.protocol">http</stringProp>
 <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -19,4 +20,4 @@ change HTTPSampler.port/HTTPSampler.domain/HTTPSampler.path/HTTPSampler.method
 <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
 <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
 <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-<stringProp name="HTTPSampler.response_timeout"></stringProp>
+<stringProp name="HTTPSampler.response_timeout"></stringProp>"
